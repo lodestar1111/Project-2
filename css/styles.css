@@ -124,13 +124,13 @@ address{
 
 .top-nav {
     background-color: rgb(245, 245, 245);
-    font-size: large;
+    
     padding-top: 30px;
     
     
 
 }
-#portfolio {
+.portfolio {
 padding: 30px;
 max-width: 100%;
 
@@ -161,7 +161,7 @@ header {
 display: flex;
 justify-content: center;
 flex-flow: column wrap;
-margi
+
 
 }
 
@@ -218,7 +218,13 @@ div.col-2 {
 
 /* TABLET STYLE */
 @media (min-width: 768px ) {
- header {
+h1 {
+color: darkgoldenrod;
+
+}
+
+
+    header {
 text-align: center;
 
  }
@@ -229,6 +235,7 @@ text-align: center;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    flex-wrap: nowrap;
     
     
 
@@ -283,10 +290,8 @@ div.col-2 {
 
 @media (min-width: 1024px) {
 
-h1{
-display: flex;
-align-it
-
+h1 {
+    color: rgb(209, 197, 177);
 }
 
 
@@ -299,18 +304,16 @@ align-it
 
 
 }
-.nav {
- 
-
-   
-
+.portfolio {
+display: flex;
+flex-direction: column;
 
 }
 main {
 display: flex;
 flex-wrap: wrap;
-max-width: 50%;
-flex-direction: row;
+max-width: 80%;
+flex-direction: column;
 
 }
 div.col-1 {
