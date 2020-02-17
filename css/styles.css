@@ -27,7 +27,7 @@ margin: 10px 10px;
 
 }
 .top-nav{
-    width: 100%;
+
     
 }
 
@@ -121,7 +121,7 @@ address{
 .top-nav {
     background-color: rgb(245, 245, 245);
     
-    padding-top: 30px;
+    
     
     
 
@@ -149,7 +149,10 @@ max-width: 100%;
     
     }
 
-
+.flex-container {
+display: flex;
+flex-direction: column;
+}
 
 
 
@@ -270,14 +273,38 @@ flex-direction: row;
 
 @media (min-width: 1024px) {
 
+body{
+width: 1023px;
+margin: 0;
+}
+
+
 h1 {
     color: rgb(209, 197, 177);
 }
 
+.flex-container {
+    flex-wrap: wrap;  
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
 
 
 
 
+}
+
+header {
+margin: 20px 20px;
+
+}
+
+ .top-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
 
 
 
