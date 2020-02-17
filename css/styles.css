@@ -60,7 +60,7 @@ h3 {
 
 }
 img {
-    width: 50%;
+    max-width: 100%;
 
 }
 
@@ -128,6 +128,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+    max-width: 100%;
     
 }
 header {
@@ -178,10 +179,16 @@ footer p {
      display: flex;
      flex-direction: column;
      align-content: center;
+     max-width: 100%;
 
 }
-header {
 
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
 
 }
 .top-nav {
@@ -254,10 +261,10 @@ justify-content: space-around;
  }
 
 header h1 {
-float: left;
+
 }
 .nav{
-float: right;
+
 }
 }
 
