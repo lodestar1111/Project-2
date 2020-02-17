@@ -63,6 +63,7 @@ border: 1px solid orange;
 
 h1 {
 font-family: "Permanent Marker", cursive;
+text-shadow: 5px 5px 5px rgb(44, 41, 41);
 
 }
 
@@ -71,13 +72,14 @@ h3 {
     text-transform: uppercase;
     font-family: "Permanent Marker", cursive;
     padding-bottom: 50px;
+    text-shadow: 5px 5px 5px gray;
 
 }
 img {
     
     max-width: 100%;
-    padding: 5px;
-
+    padding: 7px;
+    box-shadow: 2px 2px 8px rgb(206, 196, 66);
 }
 
 
@@ -130,9 +132,15 @@ address{
     
 
 }
-.portfolio {
+#portfolio {
 padding: 30px;
 max-width: 100%;
+
+}
+
+.porfolio-container {
+display:flex;
+flex-direction: column;
 
 }
 .nav {
@@ -186,24 +194,6 @@ footer p {
 }
 
 
-div.col-1 {
-   
-   
-    flex-direction: column;
-    float: right;
-   
-    }
-
-
-
-
-div.col-2 {
-   
-    
-    flex-direction: column;
-    float: left;
-   
-    }
 
 
 
@@ -260,24 +250,18 @@ main {
     
    
 }
-div.col-1 {
-   
-   
-    flex-direction: column;
-    float: right;
-    max-width: 50%;
+
+.porfolio-container {
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.col {
+   flex: 1 50%;
     }
 
 
-
-
-div.col-2 {
-   
-    
-    flex-direction: column;
-    float: left;
-    max-width: 50%;
-    }
 
 }
 
@@ -304,7 +288,7 @@ h1 {
 
 
 }
-.portfolio {
+#portfolio {
 display: flex;
 flex-direction: column;
 
@@ -316,27 +300,14 @@ max-width: 80%;
 flex-direction: column;
 
 }
-div.col-1 {
-   
-    max-width: 50%;
-    flex-direction: column;
-    float: right;
-    }
 
-
-
-
-div.col-2 {
-   
-    max-width: 50%;
-    flex-direction: column;
-    float: left;
-
-    }
+.col {
+   flex: 33.3333%;
+    
 }
 
 
-    
+}  
   
 
 
