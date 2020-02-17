@@ -81,6 +81,11 @@ background-color:rgb(255, 245, 245);
 margin-bottom: 20px;
 padding: 0 40px 40px;
 
+
+}
+.intro p {
+font-size: large;
+
 }
 
 
@@ -146,7 +151,7 @@ footer p {
 }
 .bottom {
     display: flex;
-    flex-direction: column wrap;
+
     justify-content: space-between;
 
     
@@ -192,13 +197,14 @@ margin-bottom: 50px;
 .intro {
 display: flex;
 flex-direction: row-reverse;
-font-size: 13px;
+
 
 
 }
 
-.main-container {
+#portfolio {
 display: flex;
+flex-direction: column;
 
 
 
@@ -234,9 +240,36 @@ div.col-2 {
 
 
 @media (max-width: 1024px) {
+ .top-nav {
+display: flex;
+justify-content: space-around;
 
 
+ }
+ .nav {
+
+
+
+
+ }
+
+header h1 {
+float: left;
+}
+.nav{
+float: right;
+}
 }
 
-}
+  
+
+ 
+
+   
+    
+
+
+
+
+
   
