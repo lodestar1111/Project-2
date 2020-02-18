@@ -1,26 +1,26 @@
-
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
 body {
-color:black;
-font-family: "Odibee Sans", cursive;
-background-color: rgb(246, 246, 245);
-margin: 0;
-text-align: center;
-width: 100%;
+    color: black;
+    font-family: "Odibee Sans", cursive;
+    background-color: rgb(246, 246, 245);
+    margin: 0;
+    text-align: center;
+    width: 100%;
 
 
 
 }
-header{
 
-line-height: 2em;
-margin: 10px 10px;
+header {
+
+    line-height: 2em;
+    margin: 10px 10px;
 
 
 
@@ -29,14 +29,16 @@ margin: 10px 10px;
 
 header a {
     text-decoration: none;
-    
+
 
 }
+
 p {
-padding-bottom: 10px;
+    padding-bottom: 10px;
 
 }
-p.nav{
+
+p.nav {
     font-weight: bolder;
     text-transform: uppercase;
     font-family: "Permanent Marker", cursive;
@@ -46,13 +48,13 @@ p.nav{
 
 
 hr {
-border: 1px solid orange;
+    border: 1px solid orange;
 
 }
 
 h1 {
-font-family: "Permanent Marker", cursive;
-text-shadow: 5px 5px 5px rgb(44, 41, 41);
+    font-family: "Permanent Marker", cursive;
+    text-shadow: 5px 5px 5px rgb(44, 41, 41);
 
 }
 
@@ -64,8 +66,9 @@ h3 {
     text-shadow: 5px 5px 5px gray;
 
 }
+
 img {
-    
+
     max-width: 100%;
     padding: 7px;
     box-shadow: 2px 2px 8px rgb(206, 196, 66);
@@ -74,33 +77,35 @@ img {
 
 
 address a {
-text-decoration: none;
+    text-decoration: none;
 
 
 }
-a:hover{
-background-color: peru;
+
+a:hover {
+    background-color: peru;
 
 }
 
 .intro {
-background-color:rgb(255, 245, 245);
-margin-bottom: 20px;
-padding: 0 40px 40px;
+    background-color: rgb(255, 245, 245);
+    margin-bottom: 20px;
+    padding: 0 40px 40px;
 
 
 }
+
 .intro p {
-font-size: large;
+    font-size: large;
 
 }
 
 
 
 #contact {
-background-color: rgb(255, 245, 245);
-padding: 20px 10px 20px 10px;
-max-width: 100%;
+    background-color: rgb(255, 245, 245);
+    padding: 20px 10px 20px 10px;
+    max-width: 100%;
 
 
 }
@@ -109,14 +114,14 @@ max-width: 100%;
 
 
 
-address{
+address {
     font-family: Arial, Helvetica, sans-serif
 }
 
 
 #portfolio {
-padding: 30px;
-max-width: 100%;
+    padding: 30px;
+    max-width: 100%;
 
 }
 
@@ -128,60 +133,56 @@ max-width: 100%;
 }
 
 main {
-max-width: 100%;
+    max-width: 100%;
 
 }
+
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    
-    }
+
+}
 
 .flex-container {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-nav {
     background-color: rgb(245, 245, 245);
     display: flex;
     flex-direction: column;
-    
-    }
-
-
-
-
-footer {
-
-
-
-
 
 }
+
+
+
+
+footer {}
 
 footer li {
     font-family: "Permanent Marker", cursive;
     list-style-type: none;
-    
+
 }
 
 footer a {
-text-decoration: none;
+    text-decoration: none;
 
 }
 
-    
-.bottom{
+
+.bottom {
     flex-direction: column;
     flex-wrap: wrap;
     font-family: "Permanent Marker", cursive;
-    
-    
+
+
 }
+
 h4 {
     font-family: "Permanent Marker", cursive;
-    
+
 }
 
 
@@ -195,63 +196,62 @@ h4 {
 
 
 
-   
+
 /* Media Queries */
 
 
 
 /* TABLET STYLE */
-@media (min-width: 768px ) {
-h1 {
-color: darkgoldenrod;
+@media (min-width: 768px) {
+    h1 {
+        color: darkgoldenrod;
 
-}
-
-
-header {
+    }
 
 
- }
+    header {}
 
 
-.intro {
-    display: flex;
-    flex-direction: row-reverse;
+    .intro {
+        display: flex;
+        flex-direction: row-reverse;
 
 
-}
+    }
 
-main {
-   
-    margin: 10px;
-    padding: 10px;
-    
-    
-    
-   
-}
+    main {
 
-.portfolio-container {
-    flex-wrap: wrap;  
-flex-direction: row;
+        margin: 10px;
+        padding: 10px;
 
 
-}
 
-.col {
-   flex: 1 50%;
+
+    }
+
+    .portfolio-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+
+
+    }
+
+    .col {
+        flex: 1 50%;
 
     }
 
 
 
 }
+
 footer li {
-display: inline-block;
-margin: 8px 8px;
-text-align: center;
+    display: inline-block;
+    margin: 8px 8px;
+    text-align: center;
 
 }
+
 .go-up {
     display: none;
 }
@@ -271,69 +271,63 @@ text-align: center;
 
 @media (min-width: 1024px) {
 
-body{
-width: 1023px;
-margin: 0 auto;
+    body {
+        width: 1023px;
+        margin: 0 auto;
+    }
+
+
+    h1 {
+        color: rgb(209, 197, 177);
+    }
+
+    .flex-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+
+
+
+    }
+
+    .top-nav {
+        justify-content: space-between;
+        flex-direction: row;
+
+
+
+
+    }
+
+    .top-nav p {
+        margin: 0 15px;
+
+    }
+
+    .top-nav p: last-of-type {
+        margin-right: 0;
+
+    }
+
+    header {
+        margin: 20px 20px;
+
+    }
+
+
+    .bottom {
+        margin: 0 auto;
+    }
+
+
+
+
+    .col {
+        flex: 33.3333%;
+
+
+
+    }
 }
-
-
-h1 {
-    color: rgb(209, 197, 177);
-}
-
-.flex-container {
-    flex-wrap: wrap;  
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 30px;
-
-
-
-
-}
-
-.top-nav {
-    justify-content: space-between;
-    flex-direction: row;
-    
-   
-    
-
-}
-.top-nav p {
-margin: 0 15px;
-    
-}
-
-.top-nav p: last-of-type {
-margin-right: 0;
-
-}
-header {
-margin: 20px 20px;
-
-}
-
-
-.bottom {
-    margin: 0 auto;
-}
-
-
-
-    
-.col {
-   flex: 33.3333%;
-  
-   
-    
-}
-}
-
-
-
-  
-
-
-
-  
