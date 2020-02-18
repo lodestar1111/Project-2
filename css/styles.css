@@ -34,7 +34,7 @@ header a {
 }
 
 p {
-    padding-bottom: 10px;
+    padding: 10px 15px 40px 10px;
 
 }
 
@@ -55,9 +55,13 @@ hr {
 h1 {
     font-family: "Permanent Marker", cursive;
     text-shadow: 5px 5px 5px rgb(44, 41, 41);
+    padding-bottom: 30px;
 
 }
+h2 {
+padding:10px 10px 10px 10px;
 
+}
 h3 {
     font-weight: bolder;
     text-transform: uppercase;
@@ -70,7 +74,7 @@ h3 {
 img {
 
     max-width: 100%;
-    padding: 7px;
+    padding: 15px 15px 15px 15px;
     box-shadow: 2px 2px 8px rgb(206, 196, 66);
 }
 
@@ -90,7 +94,7 @@ a:hover {
 .intro {
     background-color: rgb(255, 245, 245);
     margin-bottom: 20px;
-    padding: 0 40px 40px;
+    padding: 20px 20px 20px;
 
 
 }
@@ -120,7 +124,7 @@ address {
 
 
 #portfolio {
-    padding: 30px;
+    padding: 20px;
     max-width: 100%;
 
 }
@@ -255,11 +259,17 @@ footer a {
 
     }
 
+.top-nav {
 
-
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
 }
 
-footer li {}
+
+
+
+
 
 .go-up {
     display: none;
