@@ -173,16 +173,30 @@ footer a {
 
 
 .bottom {
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-family: "Permanent Marker", cursive;
-
+    padding: 10px;
 
 }
 
-h4 {
-    font-family: "Permanent Marker", cursive;
+.bottom h4 {
+    text-align: left;
+    margin: auto 0;
 
+}
+
+.bottom ul {
+    display: inline-block;
+}
+
+.go-up {
+    display: inline-block;
+}
+
+.full {
+    display: none;
 }
 
 
@@ -245,22 +259,14 @@ h4 {
 
 }
 
-footer li {
-    display: inline-block;
-    margin: 8px 8px;
-    text-align: center;
-
-}
+footer li {}
 
 .go-up {
     display: none;
 }
 
-
-.bottom {
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
+.full {
+    display: inline-block;
 }
 
 
@@ -306,7 +312,7 @@ footer li {
 
     }
 
-    .top-nav p: last-of-type {
+    .top-nav p:last-of-type {
         margin-right: 0;
 
     }
